@@ -12,6 +12,13 @@ body {
 .top-section {
     display: flex;
 }
+.side-border {
+    border-left: 5px solid cyan;
+    border-radius: 5px;
+}
+.side-border h1 {
+    padding-left: 5px;
+}
 h1 {
     font-size: 45px;
 }
@@ -24,6 +31,32 @@ h1 {
     color: white;
     padding: 8px 15px;
     border-radius: 5px;
+}
+.second-section h1 {
+    text-align: center;
+}
+.my-mission {
+    display: flex;
+    margin-left: 110px;
+}
+.one-third {
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+.one-third img {
+    width: 40%;
+}
+.mission {
+    background-color: #b3b3ee;
+}
+.vission {
+    background-color: #f1d3ab;
+}
+.goal {
+background-color: #f3a6b5;
 }
 .third-section {
     background-image: url("images/shapes/shape-1.png");
